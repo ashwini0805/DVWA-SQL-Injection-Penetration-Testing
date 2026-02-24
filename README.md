@@ -119,68 +119,68 @@ Conduct frequent VAPT assessments.
 
 1.DVWA Login Page
 <p align="center">
-  <img src="Screenshots/01_login_page.png" width="650">
+  <img src="Screenshots/01_login_page.png" width="300">
 </p>
 
 
 
 2.SQL Injection Vulnerability Test
 <p align="center">
-  <img src="Screenshots/02_sql_test.png" width="650">
+  <img src="Screenshots/02_sql_test.png" width="300">
 </p>
 
 
 
 3. Error-Based Injection
 <p align="center">
-  <img src="Screenshots/03_error_test.png" width="650">
+  <img src="Screenshots/03_error_test.png" width="300">
 </p>
 
 
 
 4. Column Enumeration (ORDER BY)
 <p align="center">
-  <img src="Screenshots/04_order_by.png" width="650">
+  <img src="Screenshots/04_order_by.png" width="300">
 </p>
 
 
 
 5. UNION SELECT Attack
 <p align="center">
-  <img src="Screenshots/05_union_select.png" width="650">
+  <img src="Screenshots/05_union_select.png" width="300">
 </p>
 
 
 
 6.Database Name Extraction
 <p align="center">
-  <img src="Screenshots/06_database_name.png" width="650">
+  <img src="Screenshots/06_database_name.png" width="300">
 </p>
 
 
 
 7. Version Extraction
 <p align="center">
-  <img src="Screenshots/07_version.png" width="650">
+  <img src="Screenshots/07_version.png" width="300">
 </p>
 
 
 
 8. Table Enumeration
 <p align="center">
-  <img src="Screenshots/08_table_names.png" width="650">
+  <img src="Screenshots/08_table_names.png" width="300">
 </p>
 
 
 
 9.Column Enumeration
 <p align="center">
-  <img src="Screenshots/09_column_names.png" width="650">
+  <img src="Screenshots/09_column_names.png" width="300">
 </p>
 
 
 
 10. User Credential Dump
 <p align="center">
-  <img src="Screenshots/10_user_dump.png" width="650">
+  <img src="Screenshots/10_user_dump.png" width="300">
 </p>
