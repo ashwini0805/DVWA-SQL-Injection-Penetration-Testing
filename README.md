@@ -5,20 +5,20 @@ This project demonstrates the ethical identification and exploitation of SQL Inj
 The objective of this assessment was to simulate a real-world attack scenario in a controlled lab environment and analyze how insecure coding practices can lead to database compromise.
 
 This project reflects practical penetration testing skills including:
-Vulnerability identification
-Manual SQL Injection exploitation
-Database enumeration
-Impact analysis
-Secure mitigation strategies
+-Vulnerability identification
+-Manual SQL Injection exploitation
+-Database enumeration
+-Impact analysis
+-Secure mitigation strategies
 
 Objective of the Assessment
 The primary goals of this penetration testing activity were:
-To identify SQL Injection vulnerabilities in DVWA
-To exploit the vulnerability using manual and automated techniques
-To extract sensitive database information
-To analyze business impact
-To recommend mitigation strategies based on secure coding practices
-This assessment was conducted strictly for educational and ethical purposes.
+-To identify SQL Injection vulnerabilities in DVWA
+-To exploit the vulnerability using manual and automated techniques
+-To extract sensitive database information
+-To analyze business impact
+-To recommend mitigation strategies based on secure coding practices
+-This assessment was conducted strictly for educational and ethical purposes.
 
 Tools & Technologies Used
 The testing was performed using industry-recognized security tools:
@@ -32,12 +32,12 @@ SQLMap – Automated SQL Injection exploitation
 
 🧪 Testing Environment
 The environment was configured as follows:
-Component	Configuration
-Operating System	Kali Linux
-Web Server	Apache
-Database	MySQL
-Application	DVWA (Localhost)
-Testing Approach	Black-box & Grey-box
+-Component	Configuration
+-Operating System	Kali Linux
+-Web Server	Apache
+-Database	MySQL
+-Application	DVWA (Localhost)
+-Testing Approach	Black-box & Grey-box
 
 The target application was hosted locally to ensure safe experimentation.
 Types of SQL Injection Demonstrated
@@ -91,26 +91,26 @@ Dumped usernames and hashed passwords.
 If exploited in a real-world production system, this vulnerability could lead to:
 
 Unauthorized access to confidential user data
-🗑 Data modification or deletion
-📂 Full database dump
-🔼 Privilege escalation
-💰 Financial and reputational loss
+ Data modification or deletion
+ Full database dump
+ Privilege escalation
+ Financial and reputational loss
 
 SQL Injection is considered critical severity because it directly impacts confidentiality, integrity, and availability (CIA Triad).
-🛡 Mitigation Strategies & Secure Coding Recommendations
+ Mitigation Strategies & Secure Coding Recommendations
 To prevent SQL Injection vulnerabilities:
 
-✅ 1. Use Prepared Statements (Parameterized Queries)
+ 1. Use Prepared Statements (Parameterized Queries)
 Example:
 $stmt = $pdo->prepare("SELECT * FROM users WHERE id = ?");
 $stmt->execute([$userId]);
-✅ 2. Input Validation
+ 2. Input Validation
 Allow only expected data types (e.g., numeric IDs).
-✅ 3. Use Web Application Firewall (WAF)
+ 3. Use Web Application Firewall (WAF)
 Blocks malicious SQL patterns.
-✅ 4. Apply Least Privilege Principle
+ 4. Apply Least Privilege Principle
 Restrict database user permissions.
-✅ 5. Disable Detailed Error Messages
+ 5. Disable Detailed Error Messages
 Prevent database structure disclosure.
-✅ 6. Regular Security Audits
+ 6. Regular Security Audits
 Conduct frequent VAPT assessments.
