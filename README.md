@@ -118,27 +118,35 @@ Conduct frequent VAPT assessments.
  📸 Screenshots
 
  1️⃣ DVWA Login Page
+
 <img src="01_login_page.png" width="300">
 
  2️⃣ SQL Injection Vulnerability Test
+ 
 <img src="02_sql_test.png" width="700">
 
  3️⃣ Error-Based Injection
+
 <img src="03_error_test.png" width="700">
 
 4️⃣ Column Enumeration (ORDER BY)
+
 <img src="04_order_by.png" width="300">
 
  5️⃣ UNION SELECT Attack
+ 
 <img src="05_union_select.png" width="300">
 
  6️⃣ Database Name Extraction
+ 
 <img src="06_database_name.png" width="300">
 
  7️⃣ Version Extraction
+ 
 <img src="07_version.png" width="300">
 
  8️⃣ Table Enumeration
+ 
 <img src="08_table_names.png" width="300">
 
  9️⃣ Column Enumeration
