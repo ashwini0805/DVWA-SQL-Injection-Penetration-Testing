@@ -150,7 +150,9 @@ Conduct frequent VAPT assessments.
 <img src="08_table_names.png" width="300">
 
  9️⃣ Column Enumeration
+ 
 <img src="09_column_names.png" width="300">
 
  🔟 User Credential Dump
+ 
 <img src="10_user_dump.png" width="300">
